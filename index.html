@@ -1,0 +1,61 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaron.com</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <style>
+    /* Customize the appearance of the slideshow */
+    .slider {
+      width: 50%;
+      margin: 0 auto;
+    }
+    .slider img {
+      max-width: 50%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+    <h1>Welcome to Jaron's Web-Portfolio</h1>
+    <h2>Professional Web-Developer | Full Stack Engineer | Human</h2><div class="slider">
+        <div><img src="./assets/images/birthday-invite.png"></div>
+        <div><img src="./assets/images/movie-ranking.png"></div>
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.slider').slick({
+            autoplay: true,
+            arrows: true,
+            dots: true,
+            speed: 1000,
+            fade: true,
+            cssEase: 'linear'
+          });
+        });
+      </script>
+    
+    <hr>
+    <a href="./Project Page.html">Projects</a> <a href="./public/about.html">About</a> <a href="./public/contact.html">Contact</a> <a href="https://jwitt22.github.io/Resume/">Resume</a>
+    
+</body>
+</html>
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+
+<!-- TODO 4: Add titles/subtitles etc. -->
+
+<!-- TODO 5: Add a link to the project pages -->
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+
+<!-- TODO 7: Add the Contact Me and About Me page links -->
